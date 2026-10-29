@@ -1,0 +1,199 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #172554;
+    background: #f8faff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: white;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.free-label {
+    color: #166534;
+    background: #dcfce7;
+    padding: 9px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px 75px;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+.tagline {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    max-width: 850px;
+    margin: 25px auto;
+    font-size: clamp(34px, 5vw, 58px);
+    line-height: 1.15;
+}
+
+h1 span {
+    color: #2563eb;
+}
+
+.description {
+    max-width: 620px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #475569;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 16px 28px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.register-button:hover {
+    background: #1d4ed8;
+}
+
+.note {
+    margin-top: 18px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.benefits,
+.registration {
+    padding: 55px 8%;
+    text-align: center;
+}
+
+.benefits h2,
+.registration h2 {
+    font-size: 30px;
+}
+
+.benefit-list {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.benefit {
+    flex: 1;
+    max-width: 300px;
+    padding: 25px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+}
+
+.benefit h3 {
+    color: #2563eb;
+}
+
+.benefit p,
+.registration p {
+    line-height: 1.6;
+    color: #64748b;
+}
+
+.registration {
+    background: #eff6ff;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        padding: 18px 5%;
+    }
+
+    .benefit-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit {
+        width: 100%;
+    }
+
+    .hero {
+        padding-top: 60px;
+    }
+}
+
+#registrationForm {
+    max-width: 500px;
+    margin: 30px auto 0;
+    padding: 28px;
+    text-align: left;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+
+#registrationForm button {
+    width: 100%;
+}
+
+#formMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+

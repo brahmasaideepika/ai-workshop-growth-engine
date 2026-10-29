@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Workshop Growth Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">AI Workshop</div>
+        <div class="free-label">100% Free Workshop</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tagline">FOR FINAL-YEAR ENGINEERING STUDENTS</p>
+
+            <h1>Build Your First AI Project in <span>60 Minutes</span></h1>
+
+            <p class="description">
+                Stop wondering where to start with AI.
+                Join our free online workshop and take your first
+                step towards building a real AI project.
+            </p>
+
+            <a href="#register" class="register-button">
+                Register for Free →
+            </a>
+
+            <p class="note">Free to join · Beginner friendly · Online</p>
+        </section>
+
+        <section class="benefits">
+            <h2>What Will You Gain?</h2>
+
+            <div class="benefit-list">
+                <div class="benefit">
+                    <h3>Learn AI</h3>
+                    <p>Understand the basics in simple steps.</p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Build a Project</h3>
+                    <p>See how an AI project comes together.</p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Start Your Journey</h3>
+                    <p>Gain confidence to explore more AI projects.</p>
+                </div>
+            </div>
+        </section>
+
+        
+            
+<section class="registration" id="register">
+    <h2>Register for Free</h2>
+    <p>Reserve your place in our beginner-friendly AI workshop.</p>
+
+    <form id="registrationForm">
+
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input
+                type="text"
+                id="fullName"
+                placeholder="Enter your full name"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="college">College Name</label>
+            <input
+                type="text"
+                id="college"
+                placeholder="Enter your college name"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="branch">Engineering Branch</label>
+            <select id="branch" required>
+                <option value="">Select your branch</option>
+                <option value="CSE">Computer Science (CSE)</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="AIML">AI and Machine Learning</option>
+                <option value="ECE">Electronics and Communication (ECE)</option>
+                <option value="EEE">Electrical and Electronics (EEE)</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="referralCode">Referral Code (Optional)</label>
+            <input
+                type="text"
+                id="referralCode"
+                placeholder="Enter your friend's code"
+            >
+        </div>
+
+        <button type="submit" class="register-button">
+            Submit Registration
+        </button>
+
+        <p id="formMessage" role="status"></p>
+
+    </form>
+</section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>AI Workshop Growth Engine · Student Growth Challenge Demo</p>
+    </footer>
+ <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
